@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_movieapp
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+jwt:
+#  secret: 61742fb52f304f8b36d03f76cd0e4ae6
+#  secret: blop1234156789123456789
